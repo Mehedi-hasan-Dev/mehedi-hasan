@@ -76,18 +76,6 @@ $('.test-details').slick({
 
   // navbar
 
-  // const bar = document.getElementById('bar')
-  // const nav = document.getElementByc('side-nav')
-
-  // if (bar) {
-  //   bar.addEventListener('click',() => {
-  //     nav.classList.add('active')
-  //   })
-  // }
-
-
-
-
 
 
   const bar = document.getElementById('bar');
@@ -153,95 +141,8 @@ window.addEventListener('scroll',function(){
 
 
 
-// const scrollTop = document.querySelector('.to-top');
-
-// window.addEventListener('scroll',function(){
-//   if (window.pageYOffset > 500){
-//     scrollTop.style.display = 'block'
-//   }
-//   else{
-//     scrollTop.style.display = 'none'
-//   }
-// })
-
-
-
-
-
-
-
-
-
-// $('.to-top').on("click", function(){
-//   $("html, body").animate({scrolltop:0}, 5000, "easeInOutQuart");
-// });
-
-// $(window).scroll(function(){
-//   var scroll = $(this).scrollTop();
-//   if(scroll>500){
-//     $('.to-top').fadeIn(700);
-//   }
-//   else{
-//     $('.to-top').fadeOut(500);
-//   }
-// })
-
-
-// $(document).ready(function() {
-//   var $toTopElement = $('.to-top');
-//   $toTopElement.hide();
-
-//   function handleScroll() {
-//     var scroll = $(window).scrollTop();
-
-//     if (scroll > 500) {
-//       $toTopElement.fadeIn(700);
-//     } else {
-//       $toTopElement.fadeOut(500);
-//     }
-
-//     requestAnimationFrame(handleScroll);
-//   }
-
-//   $(window).on('scroll', handleScroll);
-// });
-
-
-// $(document).ready(function() {
-//   console.log("Document ready");
-  
-//   var $toTopElement = $('.to-top');
-//   console.log("$toTopElement:", $toTopElement);
-  
-//   $toTopElement.hide();
-
-//   function handleScroll() {
-//     console.log("handleScroll");
-    
-//     var scroll = $(window).scrollTop();
-//     console.log("scroll:", scroll);
-
-//     if (scroll > 500) {
-//       $toTopElement.fadeIn(700);
-//     } else {
-//       $toTopElement.fadeOut(500);
-//     }
-
-//     requestAnimationFrame(handleScroll);
-//   }
-
-//   $(window).on('scroll', handleScroll);
-// });
-
-
 // preloader
 
-
-// var loader = document.querySelector(".preloader");
-
-// window.onload = function() {
-//   loader.style.display = "none";
-// }
 
 $(window).on('load',function(){
   $('.preloader').delay(500).fadeOut(500)
