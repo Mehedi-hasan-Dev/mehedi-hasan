@@ -1,0 +1,60 @@
+.color-swich{
+    width: 230px;
+    padding: 15px;
+    background: #bdbaec;
+    position: fixed;
+    left: -170px;
+    bottom: 170px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    z-index: 10000;
+    transition: all ease-in-out 0.5s;
+}
+.color-swich .red{
+    color: rgb(255, 42, 42);
+    padding-right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 4px #000);
+}
+.color-swich .blue{
+    color: blue;
+    padding-right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 4px #000);
+}
+.color-swich .yellow{
+    color: yellow;
+    padding-right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 4px #000);
+}
+.color-swich .green{
+    color: green;
+    font-size: 30px;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 4px #000);
+}
+.color-swich .switch{
+    padding-left: 40px;
+    font-size: 28px;
+    color: #00d9ff;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 4px #000);
+}
+.palette {
+    left: 0;
+}
+@media only screen and (max-width: 575px){
+    .color-swich{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+    .color-swich{
+        display: none;
+    }
+}
